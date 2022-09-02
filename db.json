@@ -1,32 +1,43 @@
-{ "questions" :
-  [
-    {
-      "id": "d61033d-e548-2bde-633-74f0b42a2ae",
-      "value": "Question 1",
-      "type": "text"
-    },
-    {
-      "id": "7167b4a-f703-1024-3a22-a2dbcb7db53b",
-      "value": "Question 2",
-      "type": "radio",
-      "options": [
-        {
-          "id": "00eb07-3c4e-716-36e2-df07d01a7db",
-          "value": "Option 1"
-        },
-        {
-          "id": "a540ce-3772-f8fd-d1eb-3b82c46d3eb",
-          "value": "Option 2"
-        },
-        {
-          "id": "62b0cff-18e5-1b8-66bb-eb162f08174",
-          "value": "Option 3"
-        },
-        {
-          "id": "27be3-ad52-a5b3-8bee-1f5fdf7c60f",
-          "value": "Option 4"
-        }
-      ]
-    }
-  ]
-}
+
+{ 
+  "Questions" : [
+     {
+       "id": "d61033d-e548-2bde-633-74f0b42a2ae",
+       "value": "Question 1",
+       "type": "text"
+     },
+     {
+       "id": "7167b4a-f703-1024-3a22-a2dbcb7db53b",
+       "value": "Question 2",
+       "type": "radio",
+       "options": [
+         {
+           "id": "1",
+           "value": "Option 1",
+         },
+         {
+           "id": "2",
+           "value": "Option 2",
+         },
+         {
+           "id": "3",
+           "value": "Option 3",
+         },
+         {
+           "id": "4",
+           "value": "Option 4",
+         }
+       ]
+     }
+   ],
+    "Answers" : [
+     {
+       "id": "d61033d-e548-2bde-633-74f0b42a2ae",
+       "answer": "This is a answer",
+     },
+     {
+       "id": "7167b4a-f703-1024-3a22-a2dbcb7db53b",
+       "answer": "3",
+     }
+   ]
+  }
